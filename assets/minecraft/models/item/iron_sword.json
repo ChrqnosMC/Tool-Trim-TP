@@ -5,63 +5,1263 @@
     },
     "overrides": [
         {
-            "model": "minecraft:item/iron_sword_quartz_trim",
+            "model": "minecraft:item/iron_sword/sentry_and_quartz_trim",
             "predicate": {
-                "trim_type": 0.1
+                "trim_type": 0.1,
+                "custom_model_data": 1
             }
         },
         {
-            "model": "minecraft:item/iron_sword_iron_darker_trim",
+            "model": "minecraft:item/iron_sword/vex_and_quartz_trim",
             "predicate": {
-                "trim_type": 0.2
+                "trim_type": 0.1,
+                "custom_model_data": 2
             }
         },
         {
-            "model": "minecraft:item/iron_sword_netherite_trim",
+            "model": "minecraft:item/iron_sword/wild_and_quartz_trim",
             "predicate": {
-                "trim_type": 0.3
+                "trim_type": 0.1,
+                "custom_model_data": 3
             }
         },
         {
-            "model": "minecraft:item/iron_sword_redstone_trim",
+            "model": "minecraft:item/iron_sword/coast_and_quartz_trim",
             "predicate": {
-                "trim_type": 0.4
+                "trim_type": 0.1,
+                "custom_model_data": 4
             }
         },
         {
-            "model": "minecraft:item/iron_sword_copper_trim",
+            "model": "minecraft:item/iron_sword/dune_and_quartz_trim",
             "predicate": {
-                "trim_type": 0.5
+                "trim_type": 0.1,
+                "custom_model_data": 5
             }
         },
         {
-            "model": "minecraft:item/iron_sword_gold_trim",
+            "model": "minecraft:item/iron_sword/wayfinder_and_quartz_trim",
             "predicate": {
-                "trim_type": 0.6
+                "trim_type": 0.1,
+                "custom_model_data": 6
             }
         },
         {
-            "model": "minecraft:item/iron_sword_emerald_trim",
+            "model": "minecraft:item/iron_sword/raiser_and_quartz_trim",
             "predicate": {
-                "trim_type": 0.7
+                "trim_type": 0.1,
+                "custom_model_data": 7
             }
         },
         {
-            "model": "minecraft:item/iron_sword_diamond_trim",
+            "model": "minecraft:item/iron_sword/shaper_and_quartz_trim",
             "predicate": {
-                "trim_type": 0.8
+                "trim_type": 0.1,
+                "custom_model_data": 8
             }
         },
         {
-            "model": "minecraft:item/iron_sword_lapis_trim",
+            "model": "minecraft:item/iron_sword/host_and_quartz_trim",
             "predicate": {
-                "trim_type": 0.9
+                "trim_type": 0.1,
+                "custom_model_data": 9
             }
         },
         {
-            "model": "minecraft:item/iron_sword_amethyst_trim",
+            "model": "minecraft:item/iron_sword/ward_and_quartz_trim",
             "predicate": {
-                "trim_type": 1.0
+                "trim_type": 0.1,
+                "custom_model_data": 10
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/silence_and_quartz_trim",
+            "predicate": {
+                "trim_type": 0.1,
+                "custom_model_data": 11
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/tide_and_quartz_trim",
+            "predicate": {
+                "trim_type": 0.1,
+                "custom_model_data": 12
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/snout_and_quartz_trim",
+            "predicate": {
+                "trim_type": 0.1,
+                "custom_model_data": 13
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/rib_and_quartz_trim",
+            "predicate": {
+                "trim_type": 0.1,
+                "custom_model_data": 14
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/eye_and_quartz_trim",
+            "predicate": {
+                "trim_type": 0.1,
+                "custom_model_data": 15
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/spire_and_quartz_trim",
+            "predicate": {
+                "trim_type": 0.1,
+                "custom_model_data": 16
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/flow_and_quartz_trim",
+            "predicate": {
+                "trim_type": 0.1,
+                "custom_model_data": 17
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/bolt_and_quartz_trim",
+            "predicate": {
+                "trim_type": 0.1,
+                "custom_model_data": 18
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/sentry_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 1
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/vex_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 2
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wild_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 3
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/coast_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 4
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/dune_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 5
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wayfinder_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 6
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/raiser_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 7
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/shaper_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 8
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/host_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 9
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/ward_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 10
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/silence_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 11
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/tide_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 12
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/snout_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 13
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/rib_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 14
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/eye_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 15
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/spire_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 16
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/flow_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 17
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/bolt_and_iron_darker_trim",
+            "predicate": {
+                "trim_type": 0.2,
+                "custom_model_data": 18
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/sentry_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 1
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/vex_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 2
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wild_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 3
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/coast_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 4
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/dune_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 5
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wayfinder_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 6
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/raiser_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 7
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/shaper_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 8
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/host_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 9
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/ward_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 10
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/silence_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 11
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/tide_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 12
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/snout_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 13
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/rib_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 14
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/eye_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 15
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/spire_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 16
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/flow_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 17
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/bolt_and_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3,
+                "custom_model_data": 18
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/sentry_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 1
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/vex_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 2
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wild_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 3
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/coast_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 4
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/dune_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 5
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wayfinder_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 6
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/raiser_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 7
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/shaper_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 8
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/host_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 9
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/ward_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 10
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/silence_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 11
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/tide_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 12
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/snout_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 13
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/rib_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 14
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/eye_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 15
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/spire_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 16
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/flow_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 17
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/bolt_and_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4,
+                "custom_model_data": 18
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/sentry_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 1
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/vex_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 2
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wild_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 3
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/coast_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 4
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/dune_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 5
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wayfinder_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 6
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/raiser_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 7
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/shaper_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 8
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/host_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 9
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/ward_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 10
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/silence_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 11
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/tide_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 12
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/snout_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 13
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/rib_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 14
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/eye_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 15
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/spire_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 16
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/flow_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 17
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/bolt_and_copper_trim",
+            "predicate": {
+                "trim_type": 0.5,
+                "custom_model_data": 18
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/sentry_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 1
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/vex_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 2
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wild_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 3
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/coast_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 4
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/dune_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 5
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wayfinder_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 6
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/raiser_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 7
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/shaper_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 8
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/host_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 9
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/ward_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 10
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/silence_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 11
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/tide_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 12
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/snout_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 13
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/rib_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 14
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/eye_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 15
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/spire_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 16
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/flow_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 17
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/bolt_and_gold_trim",
+            "predicate": {
+                "trim_type": 0.6,
+                "custom_model_data": 18
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/sentry_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 1
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/vex_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 2
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wild_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 3
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/coast_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 4
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/dune_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 5
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wayfinder_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 6
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/raiser_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 7
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/shaper_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 8
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/host_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 9
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/ward_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 10
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/silence_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 11
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/tide_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 12
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/snout_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 13
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/rib_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 14
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/eye_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 15
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/spire_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 16
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/flow_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 17
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/bolt_and_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7,
+                "custom_model_data": 18
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/sentry_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 1
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/vex_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 2
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wild_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 3
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/coast_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 4
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/dune_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 5
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wayfinder_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 6
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/raiser_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 7
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/shaper_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 8
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/host_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 9
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/ward_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 10
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/silence_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 11
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/tide_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 12
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/snout_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 13
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/rib_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 14
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/eye_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 15
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/spire_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 16
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/flow_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 17
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/bolt_and_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8,
+                "custom_model_data": 18
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/sentry_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 1
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/vex_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 2
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wild_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 3
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/coast_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 4
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/dune_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 5
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wayfinder_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 6
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/raiser_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 7
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/shaper_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 8
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/host_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 9
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/ward_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 10
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/silence_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 11
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/tide_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 12
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/snout_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 13
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/rib_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 14
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/eye_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 15
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/spire_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 16
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/flow_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 17
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/bolt_and_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9,
+                "custom_model_data": 18
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/sentry_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 1
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/vex_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 2
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wild_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 3
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/coast_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 4
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/dune_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 5
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/wayfinder_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 6
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/raiser_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 7
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/shaper_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 8
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/host_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 9
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/ward_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 10
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/silence_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 11
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/tide_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 12
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/snout_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 13
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/rib_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 14
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/eye_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 15
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/spire_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 16
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/flow_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 17
+            }
+        },
+        {
+            "model": "minecraft:item/iron_sword/bolt_and_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0,
+                "custom_model_data": 18
             }
         }
     ]

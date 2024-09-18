@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "pack_format": 34,
+    "supported_formats": [33,34],
+    "description": "Tool Trim"
+  }
+}

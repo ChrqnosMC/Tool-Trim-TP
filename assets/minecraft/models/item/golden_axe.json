@@ -1,0 +1,68 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/golden_axe"
+    },
+    "overrides": [
+        {
+            "model": "minecraft:item/golden_axe_quartz_trim",
+            "predicate": {
+                "trim_type": 0.1
+            }
+        },
+        {
+            "model": "minecraft:item/golden_axe_iron_trim",
+            "predicate": {
+                "trim_type": 0.2
+            }
+        },
+        {
+            "model": "minecraft:item/golden_axe_netherite_trim",
+            "predicate": {
+                "trim_type": 0.3
+            }
+        },
+        {
+            "model": "minecraft:item/golden_axe_redstone_trim",
+            "predicate": {
+                "trim_type": 0.4
+            }
+        },
+        {
+            "model": "minecraft:item/golden_axe_copper_trim",
+            "predicate": {
+                "trim_type": 0.5
+            }
+        },
+        {
+            "model": "minecraft:item/golden_axe_gold_darker_trim",
+            "predicate": {
+                "trim_type": 0.6
+            }
+        },
+        {
+            "model": "minecraft:item/golden_axe_emerald_trim",
+            "predicate": {
+                "trim_type": 0.7
+            }
+        },
+        {
+            "model": "minecraft:item/golden_axe_diamond_trim",
+            "predicate": {
+                "trim_type": 0.8
+            }
+        },
+        {
+            "model": "minecraft:item/golden_axe_lapis_trim",
+            "predicate": {
+                "trim_type": 0.9
+            }
+        },
+        {
+            "model": "minecraft:item/golden_axe_amethyst_trim",
+            "predicate": {
+                "trim_type": 1.0
+            }
+        }
+    ]
+}

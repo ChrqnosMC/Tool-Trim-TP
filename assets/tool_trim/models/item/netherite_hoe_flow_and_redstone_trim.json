@@ -2,6 +2,6 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "minecraft:item/netherite_hoe",
-    "layer1": "minecraft:trims/items/hoe_trim/flow_redstone"
+    "layer1": "tool_trim:trims/items/hoe_trim/flow_redstone"
   }
 }

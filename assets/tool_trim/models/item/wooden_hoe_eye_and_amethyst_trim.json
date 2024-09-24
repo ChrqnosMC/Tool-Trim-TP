@@ -2,6 +2,6 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "minecraft:item/wooden_hoe",
-    "layer1": "minecraft:trims/items/hoe_trim/eye_amethyst"
+    "layer1": "tool_trim:trims/items/hoe_trim/eye_amethyst"
   }
 }

@@ -2,6 +2,6 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "minecraft:item/iron_axe",
-    "layer1": "minecraft:trims/items/axe_trim/coast_gold"
+    "layer1": "tool_trim:trims/items/axe_trim/coast_gold"
   }
 }

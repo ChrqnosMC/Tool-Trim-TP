@@ -110,8 +110,8 @@ async function writeItemModels() {
           ? `./generator/output/assets/tool_trim/models/item/${tool}_${trim}_and_${material}_darker_trim.json`
           : `./generator/output/assets/tool_trim/models/item/${tool}_${trim}_and_${material}_trim.json`
         const modelTrim = compareMaterial(material, toolMaterial)
-          ? `tool_trim:trims/items/${toolName}_trim/${trim}_${material}_darker`
-          : `tool_trim:trims/items/${toolName}_trim/${trim}_${material}`
+          ? `minecraft:trims/items/${toolName}_trim/${trim}_${material}_darker`
+          : `minecraft:trims/items/${toolName}_trim/${trim}_${material}`
         const modelContents = {
           parent: 'minecraft:item/handheld',
           textures: {

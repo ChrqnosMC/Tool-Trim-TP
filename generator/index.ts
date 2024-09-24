@@ -71,6 +71,11 @@ const materials = [
   'amethyst'
 ]
 
+function compareMaterial(material1: string, material2: string) {
+  if (material1.startsWith('gold') && material2.startsWith('gold')) return true
+  return material1 === material2
+}
+
 async function writeItemModels() {
   const promises: Promise<void>[] = []
   
@@ -91,7 +96,7 @@ async function writeItemModels() {
 
     for (const material of materials) {
       for (const trim of trims) {
-        const model = material === toolMaterial
+        const model = compareMaterial(material, toolMaterial)
           ? `tool_trim:item/${tool}/${trim}_and_${material}_darker_trim`
           : `tool_trim:item/${tool}/${trim}_and_${material}_trim`
         overrides.push({
@@ -101,20 +106,20 @@ async function writeItemModels() {
           }
         })
 
-        const modelFile = material === toolMaterial
+        const modelFile = compareMaterial(material, toolMaterial)
           ? `./generator/output/assets/tool_trim/models/item/${tool}/${trim}_and_${material}_darker_trim.json`
           : `./generator/output/assets/tool_trim/models/item/${tool}/${trim}_and_${material}_trim.json`
-        const modelTrim = material === toolMaterial
+        const modelTrim = compareMaterial(material, toolMaterial)
           ? `minecraft:trims/items/${toolName}_trim/${trim}_${material}_darker`
           : `minecraft:trims/items/${toolName}_trim/${trim}_${material}`
-        const modelContent = {
+        const modelContents = {
           parent: 'minecraft:item/handheld',
           textures: {
             layer0: `minecraft:item/${tool}`,
             layer1: modelTrim
           }
         }
-        promises.push(writeFile(modelFile, JSON.stringify(modelContent)))
+        promises.push(writeFile(modelFile, JSON.stringify(modelContents, null, 2)))
       }
     }
 
@@ -124,7 +129,7 @@ async function writeItemModels() {
       textures: `minecraft:item/${tool}`,
       overrides
     }
-    promises.push(writeFile(toolFile, JSON.stringify(toolContents)))
+    promises.push(writeFile(toolFile, JSON.stringify(toolContents, null, 2)))
   }
 
   return Promise.all(promises)

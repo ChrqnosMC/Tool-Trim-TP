@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/trident",
+    "layer1": "minecraft:trims/items/trident_trim/coast_iron"
+  }
+}

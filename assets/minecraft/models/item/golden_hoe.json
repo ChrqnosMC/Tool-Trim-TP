@@ -1,1268 +1,1086 @@
 {
-    "parent": "minecraft:item/handheld",
-    "textures": {
-        "layer0": "minecraft:item/golden_hoe"
+  "parent": "minecraft:item/handheld",
+  "textures": "minecraft:item/golden_hoe",
+  "overrides": [
+    {
+      "model": "tool_trim:item/golden_hoe/sentry_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 1
+      }
     },
-    "overrides": [
-        {
-            "model": "minecraft:item/golden_hoe/sentry_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 1
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/vex_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 2
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wild_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 3
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/coast_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 4
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/dune_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 5
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wayfinder_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 6
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/raiser_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 7
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/shaper_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 8
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/host_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 9
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/ward_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 10
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/silence_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 11
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/tide_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 12
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/snout_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 13
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/rib_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 14
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/eye_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 15
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/spire_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 16
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/flow_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 17
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/bolt_and_quartz_trim",
-            "predicate": {
-                "trim_type": 0.1,
-                "custom_model_data": 18
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/sentry_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 1
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/vex_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 2
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wild_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 3
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/coast_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 4
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/dune_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 5
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wayfinder_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 6
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/raiser_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 7
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/shaper_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 8
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/host_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 9
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/ward_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 10
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/silence_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 11
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/tide_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 12
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/snout_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 13
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/rib_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 14
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/eye_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 15
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/spire_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 16
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/flow_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 17
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/bolt_and_iron_trim",
-            "predicate": {
-                "trim_type": 0.2,
-                "custom_model_data": 18
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/sentry_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 1
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/vex_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 2
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wild_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 3
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/coast_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 4
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/dune_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 5
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wayfinder_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 6
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/raiser_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 7
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/shaper_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 8
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/host_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 9
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/ward_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 10
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/silence_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 11
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/tide_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 12
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/snout_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 13
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/rib_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 14
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/eye_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 15
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/spire_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 16
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/flow_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 17
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/bolt_and_netherite_trim",
-            "predicate": {
-                "trim_type": 0.3,
-                "custom_model_data": 18
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/sentry_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 1
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/vex_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 2
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wild_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 3
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/coast_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 4
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/dune_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 5
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wayfinder_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 6
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/raiser_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 7
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/shaper_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 8
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/host_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 9
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/ward_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 10
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/silence_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 11
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/tide_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 12
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/snout_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 13
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/rib_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 14
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/eye_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 15
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/spire_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 16
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/flow_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 17
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/bolt_and_redstone_trim",
-            "predicate": {
-                "trim_type": 0.4,
-                "custom_model_data": 18
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/sentry_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 1
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/vex_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 2
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wild_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 3
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/coast_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 4
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/dune_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 5
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wayfinder_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 6
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/raiser_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 7
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/shaper_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 8
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/host_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 9
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/ward_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 10
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/silence_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 11
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/tide_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 12
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/snout_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 13
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/rib_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 14
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/eye_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 15
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/spire_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 16
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/flow_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 17
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/bolt_and_copper_trim",
-            "predicate": {
-                "trim_type": 0.5,
-                "custom_model_data": 18
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/sentry_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 1
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/vex_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 2
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wild_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 3
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/coast_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 4
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/dune_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 5
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wayfinder_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 6
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/raiser_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 7
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/shaper_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 8
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/host_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 9
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/ward_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 10
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/silence_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 11
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/tide_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 12
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/snout_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 13
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/rib_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 14
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/eye_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 15
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/spire_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 16
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/flow_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 17
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/bolt_and_gold_darker_trim",
-            "predicate": {
-                "trim_type": 0.6,
-                "custom_model_data": 18
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/sentry_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 1
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/vex_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 2
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wild_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 3
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/coast_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 4
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/dune_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 5
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wayfinder_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 6
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/raiser_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 7
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/shaper_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 8
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/host_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 9
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/ward_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 10
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/silence_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 11
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/tide_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 12
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/snout_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 13
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/rib_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 14
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/eye_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 15
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/spire_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 16
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/flow_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 17
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/bolt_and_emerald_trim",
-            "predicate": {
-                "trim_type": 0.7,
-                "custom_model_data": 18
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/sentry_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 1
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/vex_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 2
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wild_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 3
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/coast_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 4
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/dune_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 5
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wayfinder_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 6
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/raiser_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 7
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/shaper_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 8
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/host_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 9
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/ward_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 10
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/silence_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 11
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/tide_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 12
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/snout_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 13
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/rib_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 14
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/eye_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 15
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/spire_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 16
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/flow_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 17
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/bolt_and_diamond_trim",
-            "predicate": {
-                "trim_type": 0.8,
-                "custom_model_data": 18
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/sentry_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 1
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/vex_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 2
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wild_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 3
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/coast_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 4
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/dune_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 5
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wayfinder_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 6
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/raiser_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 7
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/shaper_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 8
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/host_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 9
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/ward_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 10
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/silence_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 11
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/tide_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 12
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/snout_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 13
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/rib_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 14
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/eye_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 15
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/spire_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 16
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/flow_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 17
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/bolt_and_lapis_trim",
-            "predicate": {
-                "trim_type": 0.9,
-                "custom_model_data": 18
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/sentry_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 1
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/vex_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 2
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wild_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 3
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/coast_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 4
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/dune_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 5
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/wayfinder_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 6
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/raiser_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 7
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/shaper_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 8
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/host_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 9
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/ward_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 10
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/silence_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 11
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/tide_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 12
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/snout_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 13
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/rib_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 14
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/eye_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 15
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/spire_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 16
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/flow_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 17
-            }
-        },
-        {
-            "model": "minecraft:item/golden_hoe/bolt_and_amethyst_trim",
-            "predicate": {
-                "trim_type": 1.0,
-                "custom_model_data": 18
-            }
-        }
-    ]
+    {
+      "model": "tool_trim:item/golden_hoe/vex_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 2
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wild_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 3
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/coast_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 4
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/dune_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 5
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wayfinder_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 6
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/raiser_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 7
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/shaper_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 8
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/host_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 9
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/ward_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 10
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/silence_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 11
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/tide_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 12
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/snout_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 13
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/rib_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 14
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/eye_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 15
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/spire_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 16
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/flow_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 17
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/bolt_and_quartz_trim",
+      "predicate": {
+        "custom_model_data": 18
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/sentry_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 19
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/vex_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 20
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wild_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 21
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/coast_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 22
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/dune_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 23
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wayfinder_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 24
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/raiser_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 25
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/shaper_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 26
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/host_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 27
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/ward_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 28
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/silence_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 29
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/tide_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 30
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/snout_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 31
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/rib_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 32
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/eye_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 33
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/spire_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 34
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/flow_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 35
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/bolt_and_iron_trim",
+      "predicate": {
+        "custom_model_data": 36
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/sentry_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 37
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/vex_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 38
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wild_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 39
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/coast_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 40
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/dune_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 41
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wayfinder_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 42
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/raiser_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 43
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/shaper_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 44
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/host_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 45
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/ward_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 46
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/silence_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 47
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/tide_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 48
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/snout_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 49
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/rib_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 50
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/eye_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 51
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/spire_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 52
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/flow_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 53
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/bolt_and_netherite_trim",
+      "predicate": {
+        "custom_model_data": 54
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/sentry_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 55
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/vex_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 56
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wild_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 57
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/coast_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 58
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/dune_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 59
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wayfinder_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 60
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/raiser_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 61
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/shaper_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 62
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/host_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 63
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/ward_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 64
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/silence_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 65
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/tide_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 66
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/snout_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 67
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/rib_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 68
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/eye_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 69
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/spire_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 70
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/flow_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 71
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/bolt_and_redstone_trim",
+      "predicate": {
+        "custom_model_data": 72
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/sentry_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 73
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/vex_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 74
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wild_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 75
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/coast_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 76
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/dune_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 77
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wayfinder_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 78
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/raiser_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 79
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/shaper_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 80
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/host_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 81
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/ward_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 82
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/silence_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 83
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/tide_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 84
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/snout_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 85
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/rib_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 86
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/eye_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 87
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/spire_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 88
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/flow_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 89
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/bolt_and_copper_trim",
+      "predicate": {
+        "custom_model_data": 90
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/sentry_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 91
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/vex_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 92
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wild_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 93
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/coast_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 94
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/dune_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 95
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wayfinder_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 96
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/raiser_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 97
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/shaper_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 98
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/host_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 99
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/ward_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 100
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/silence_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 101
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/tide_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 102
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/snout_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 103
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/rib_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 104
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/eye_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 105
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/spire_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 106
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/flow_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 107
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/bolt_and_gold_darker_trim",
+      "predicate": {
+        "custom_model_data": 108
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/sentry_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 109
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/vex_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 110
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wild_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 111
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/coast_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 112
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/dune_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 113
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wayfinder_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 114
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/raiser_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 115
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/shaper_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 116
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/host_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 117
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/ward_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 118
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/silence_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 119
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/tide_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 120
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/snout_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 121
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/rib_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 122
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/eye_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 123
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/spire_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 124
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/flow_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 125
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/bolt_and_emerald_trim",
+      "predicate": {
+        "custom_model_data": 126
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/sentry_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 127
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/vex_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 128
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wild_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 129
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/coast_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 130
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/dune_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 131
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wayfinder_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 132
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/raiser_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 133
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/shaper_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 134
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/host_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 135
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/ward_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 136
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/silence_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 137
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/tide_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 138
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/snout_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 139
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/rib_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 140
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/eye_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 141
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/spire_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 142
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/flow_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 143
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/bolt_and_diamond_trim",
+      "predicate": {
+        "custom_model_data": 144
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/sentry_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 145
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/vex_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 146
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wild_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 147
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/coast_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 148
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/dune_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 149
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wayfinder_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 150
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/raiser_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 151
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/shaper_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 152
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/host_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 153
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/ward_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 154
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/silence_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 155
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/tide_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 156
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/snout_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 157
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/rib_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 158
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/eye_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 159
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/spire_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 160
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/flow_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 161
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/bolt_and_lapis_trim",
+      "predicate": {
+        "custom_model_data": 162
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/sentry_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 163
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/vex_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 164
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wild_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 165
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/coast_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 166
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/dune_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 167
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/wayfinder_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 168
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/raiser_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 169
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/shaper_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 170
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/host_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 171
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/ward_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 172
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/silence_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 173
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/tide_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 174
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/snout_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 175
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/rib_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 176
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/eye_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 177
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/spire_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 178
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/flow_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 179
+      }
+    },
+    {
+      "model": "tool_trim:item/golden_hoe/bolt_and_amethyst_trim",
+      "predicate": {
+        "custom_model_data": 180
+      }
+    }
+  ]
 }

@@ -2,6 +2,6 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "minecraft:item/trident",
-    "layer1": "tool_trim:trims/items/trident_trim/ward_copper"
+    "layer1": "minecraft:trims/items/trident_trim/ward_copper"
   }
 }

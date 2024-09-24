@@ -2,6 +2,6 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "minecraft:item/stone_shovel",
-    "layer1": "tool_trim:trims/items/shovel_trim/snout_diamond"
+    "layer1": "minecraft:trims/items/shovel_trim/snout_diamond"
   }
 }

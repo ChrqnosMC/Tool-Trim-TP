@@ -2,6 +2,6 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "minecraft:item/golden_hoe",
-    "layer1": "tool_trim:trims/items/hoe_trim/sentry_quartz"
+    "layer1": "minecraft:trims/items/hoe_trim/sentry_quartz"
   }
 }

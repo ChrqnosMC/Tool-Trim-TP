@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/golden_pickaxe",
+    "layer1": "tool_trim:trims/items/pickaxe_trim/dune_emerald"
+  }
+}

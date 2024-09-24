@@ -88,17 +88,17 @@ async function writeItemModels() {
       toolName = toolMaterial
       toolMaterial = ''
     }
-    
-    await mkdir(`./generator/output/assets/tool_trim/models/item/${tool}`, { recursive: true })
 
+    await mkdir(`./generator/output/assets/tool_trim/models/item`, { recursive: true })
+    
     const overrides: { model: string; predicate: { custom_model_data: number } }[] = []
     let counter = 1
 
     for (const material of materials) {
       for (const trim of trims) {
         const model = compareMaterial(material, toolMaterial)
-          ? `tool_trim:item/${tool}/${trim}_and_${material}_darker_trim`
-          : `tool_trim:item/${tool}/${trim}_and_${material}_trim`
+          ? `tool_trim:item/${tool}_${trim}_and_${material}_darker_trim`
+          : `tool_trim:item/${tool}_${trim}_and_${material}_trim`
         overrides.push({
           model,
           predicate: {
@@ -107,11 +107,11 @@ async function writeItemModels() {
         })
 
         const modelFile = compareMaterial(material, toolMaterial)
-          ? `./generator/output/assets/tool_trim/models/item/${tool}/${trim}_and_${material}_darker_trim.json`
-          : `./generator/output/assets/tool_trim/models/item/${tool}/${trim}_and_${material}_trim.json`
+          ? `./generator/output/assets/tool_trim/models/item/${tool}_${trim}_and_${material}_darker_trim.json`
+          : `./generator/output/assets/tool_trim/models/item/${tool}_${trim}_and_${material}_trim.json`
         const modelTrim = compareMaterial(material, toolMaterial)
           ? `minecraft:trims/items/${toolName}_trim/${trim}_${material}_darker`
-          : `minecraft:trims/items/${toolName}_trim/${trim}_${material}`
+          : `tool_trim:trims/items/${toolName}_trim/${trim}_${material}`
         const modelContents = {
           parent: 'minecraft:item/handheld',
           textures: {

@@ -2,6 +2,6 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "minecraft:item/golden_shovel",
-    "layer1": "minecraft:trims/items/shovel_trim/coast_iron"
+    "layer1": "tool_trim:trims/items/shovel_trim/coast_iron"
   }
 }

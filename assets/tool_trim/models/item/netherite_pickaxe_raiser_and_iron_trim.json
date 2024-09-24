@@ -2,6 +2,6 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "minecraft:item/netherite_pickaxe",
-    "layer1": "minecraft:trims/items/pickaxe_trim/raiser_iron"
+    "layer1": "tool_trim:trims/items/pickaxe_trim/raiser_iron"
   }
 }

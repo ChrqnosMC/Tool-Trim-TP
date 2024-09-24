@@ -2,6 +2,6 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "minecraft:item/netherite_sword",
-    "layer1": "minecraft:trims/items/sword_trim/sentry_lapis"
+    "layer1": "tool_trim:trims/items/sword_trim/sentry_lapis"
   }
 }

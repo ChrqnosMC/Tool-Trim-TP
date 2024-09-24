@@ -5,7 +5,7 @@
   },
   "overrides": [
     {
-      "model": "tool_trim:item/diamond_axe/sentry_and_quartz_trim",
+      "model": "tool_trim:item/diamond_axe_sentry_and_quartz_trim",
       "predicate": {
         "custom_model_data": 1
       }

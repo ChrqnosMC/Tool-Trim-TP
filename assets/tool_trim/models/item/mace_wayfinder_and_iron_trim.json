@@ -2,6 +2,6 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "minecraft:item/mace",
-    "layer1": "minecraft:trims/items/mace_trim/wayfinder_iron"
+    "layer1": "tool_trim:trims/items/mace_trim/wayfinder_iron"
   }
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/crossbow",
+    "layer1": "tool_trim:trims/items/crossbow_trim/spire_quartz"
+  }
+}

@@ -21,7 +21,7 @@ jobs:
           echo "branch=1.21.2" >> $GITHUB_ENV
           tag=${{github.ref_name}}
           echo "tag=$tag" >> $GITHUB_ENV
-          echo "name=tool-trim-tp" >> $GITHUB_ENV
+          echo "name=tool-trim-tp-32x" >> $GITHUB_ENV
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
@@ -40,7 +40,7 @@ jobs:
         with:
           modrinth-token: ${{secrets.ACCESS_TOKEN}}
           modrinth-id: 327VTcxk
-          name: Tool Trim TP ${{env.branch}}-${{env.tag}}
+          name: Tool Trim TP 32x ${{env.branch}}-${{env.tag}}
           version: ${{env.tag}}
           files: |
             src/${{env.name}}-${{env.branch}}-${{env.tag}}.zip

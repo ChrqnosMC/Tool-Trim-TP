@@ -40,7 +40,7 @@ jobs:
         with:
           modrinth-token: ${{secrets.ACCESS_TOKEN}}
           modrinth-id: 327VTcxk
-          name: Tool Trim TP 16x ${{env.branch}}-${{env.tag}}
+          name: Tool Trim TP ${{env.branch}}-${{env.tag}}
           version: ${{env.tag}}
           files: |
             src/${{env.name}}-${{env.branch}}-${{env.tag}}.zip

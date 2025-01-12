@@ -1,0 +1,1632 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "entries": [
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_sentry_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_sentry_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_sentry_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_sentry_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_sentry_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_sentry_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_sentry_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_sentry_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_sentry_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_sentry_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_sentry_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_vex_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_vex_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_vex_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_vex_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_vex_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_vex_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_vex_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_vex_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_vex_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_vex_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_vex_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wild_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wild_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wild_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wild_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wild_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wild_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wild_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wild_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wild_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wild_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wild_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_coast_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_coast_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_coast_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_coast_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_coast_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_coast_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_coast_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_coast_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_coast_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_coast_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_coast_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_dune_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_dune_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_dune_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_dune_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_dune_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_dune_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_dune_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_dune_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_dune_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_dune_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_dune_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wayfinder_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wayfinder_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wayfinder_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wayfinder_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wayfinder_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wayfinder_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wayfinder_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wayfinder_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wayfinder_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wayfinder_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_wayfinder_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_raiser_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_raiser_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_raiser_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_raiser_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_raiser_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_raiser_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_raiser_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_raiser_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_raiser_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_raiser_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_raiser_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 7
+      },
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_shaper_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_shaper_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_shaper_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_shaper_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_shaper_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_shaper_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_shaper_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_shaper_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_shaper_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_shaper_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_shaper_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 8
+      },
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_host_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_host_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_host_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_host_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_host_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_host_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_host_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_host_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_host_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_host_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_host_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 9
+      },
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_ward_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_ward_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_ward_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_ward_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_ward_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_ward_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_ward_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_ward_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_ward_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_ward_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_ward_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 10
+      },
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_silence_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_silence_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_silence_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_silence_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_silence_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_silence_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_silence_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_silence_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_silence_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_silence_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_silence_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 11
+      },
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_tide_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_tide_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_tide_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_tide_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_tide_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_tide_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_tide_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_tide_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_tide_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_tide_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_tide_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 12
+      },
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_snout_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_snout_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_snout_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_snout_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_snout_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_snout_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_snout_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_snout_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_snout_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_snout_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_snout_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 13
+      },
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_rib_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_rib_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_rib_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_rib_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_rib_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_rib_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_rib_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_rib_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_rib_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_rib_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_rib_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 14
+      },
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_eye_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_eye_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_eye_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_eye_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_eye_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_eye_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_eye_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_eye_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_eye_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_eye_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_eye_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 15
+      },
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_spire_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_spire_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_spire_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_spire_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_spire_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_spire_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_spire_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_spire_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_spire_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_spire_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_spire_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 16
+      },
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_flow_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_flow_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_flow_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_flow_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_flow_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_flow_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_flow_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_flow_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_flow_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_flow_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_flow_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 17
+      },
+      {
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_bolt_and_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_bolt_and_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_bolt_and_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_bolt_and_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_bolt_and_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_bolt_and_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_bolt_and_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_bolt_and_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_bolt_and_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_bolt_and_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "tool_trim:item/wooden_hoe_bolt_and_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wooden_hoe"
+          },
+          "property": "minecraft:trim_material"
+        },
+        "threshold": 18
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/wooden_hoe"
+    },
+    "property": "minecraft:custom_model_data"
+  }
+}

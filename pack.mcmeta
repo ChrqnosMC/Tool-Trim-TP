@@ -27,10 +27,22 @@
 				"directory": "overlay_44_2"
 			},
 			{
+				"formats": [65,72],
+				"min_format": [65,0],
+				"max_format": [72,0],
+				"directory": "overlay_65"
+			},
+			{
 				"formats": [65,75],
 				"min_format": [65,0],
 				"max_format": [75,0],
-				"directory": "overlay_65"
+				"directory": "overlay_65_2"
+			},
+			{
+				"formats": [73,75],
+				"min_format": [73,0],
+				"max_format": [75,0],
+				"directory": "overlay_73"
 			}
 		]
 	}
